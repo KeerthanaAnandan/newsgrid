@@ -1,4 +1,5 @@
+document.querySelector(".displaythis").style.display = "none";
 function submitForm(e) {
   e.preventDefault();
-  location.href = "page.html";
+  document.querySelector(".displaythis").style.display = "block";
 }
